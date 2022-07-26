@@ -1,0 +1,23 @@
+{
+    "name": "letfa/framework",
+    "description": "framework nosso",
+    "authors": [
+        {
+            "name": "Letícia Farias",
+            "role": "Developer",
+            "email": "lefarias111@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "*",
+        "league/plates": "v4.0.0-alpha"
+    }
+}

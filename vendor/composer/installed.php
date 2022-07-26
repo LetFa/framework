@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'letfa/teste',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'coffeecode/router' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'a16770ae952ce3f91a04035a09be610a030e049c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coffeecode/router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'league/plates' => array(
+            'pretty_version' => 'v4.0.0-alpha',
+            'version' => '4.0.0.0-alpha',
+            'reference' => 'f53f4c1fa4bf307d0f3858a348172ff4faf7669a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/plates',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'letfa/teste' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
